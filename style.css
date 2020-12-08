@@ -1,0 +1,22 @@
+:root {
+  /* text colors */
+  --lite: #d9b79e;
+  --medium: #b89376;
+  --dark: #5c442c;
+}
+body {
+  color: var(--dark);
+}
+
+#jumbo {
+  /* background-image: url("./Assets/Images/compSkel1900x1456.jpg"); */
+  /* background-image: url("./Assets/Images/comp.jpg"); */
+  background: radial-gradient(rgba(71, 59, 46, 0.644), 
+    rgb(65, 41, 25)), 
+    url("./Assets/Images/office1280x600.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--lite);
+}
